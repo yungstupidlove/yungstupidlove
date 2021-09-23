@@ -67,27 +67,27 @@ img[src*="bird"] {
   font-size: 20px;
 }
 
-.stripey tr:nth-child(even) {  
+#tablecss tr:nth-child(even) {  
   background-color: gray;
 }
 
-.stripey tr:nth-child(odd) {  
+#tablecss tr:nth-child(odd) {  
   background-color: white;
 }
 
-.stripey th {  
+#tablecss th {  
   color: white;  
   background-color: black;
 }
 
-.mousey td:hover {  
+#tablecss td:hover {  
   background-color: yellow;
 }
 
-.rightey td { 
+#tablecss td { 
   text-align: right;
 }
 
-input[type="text"].pinkey:focus {  
+input[type="text"]:focus {  
   background-color: pink;
 }
