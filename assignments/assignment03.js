@@ -26,5 +26,3 @@ function add1 (elem) {
     elem.children[2].innerHTML = currentScore + 1;
   }
 }
-
-<script "https://cdn.skypack.dev/bootstrap@5.1.3"> </script>
