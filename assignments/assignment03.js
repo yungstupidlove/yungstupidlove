@@ -27,4 +27,4 @@ function add1 (elem) {
   }
 }
 
-<script> "https://cdn.skypack.dev/bootstrap@5.1.3" <script/>
+<script "https://cdn.skypack.dev/bootstrap@5.1.3"> </script>
