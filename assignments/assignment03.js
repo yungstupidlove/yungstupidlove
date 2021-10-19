@@ -1,6 +1,6 @@
 let elem = [];
 // assign the entire table row for hole 1 to a variable, elem
-elem[1] = document.getElementById("1");
+// elem[1] = document.getElementById("1");
 
 // display the number of children (all td elements)
 // console.log(elem.children.length);
