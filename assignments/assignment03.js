@@ -12,6 +12,7 @@ elem[1].children[4].children[0].onclick = function(){add1(elem[1]);};
 
 elem[1].children[4].children[1].onclick = function(){subtract1(elem[1]);};
 
+// assign a function to the - button
 for(let i=1; i<=18; i++) {
   // console.log(i);
   elem[i] = document.getElementById(i.toString());
@@ -27,6 +28,12 @@ function add1 (elem) {
     currentScore = Number.parseInt(currentScore);
     elem.children[2].innerHTML = currentScore + 1;
   }
+}
+
+for(let i=1; i<=18; i++) {
+  // console.log(i);
+  elem[i] = document.getElementById(i.toString());
+  elem[i].children[4].children[1].onclick = function(){subtract1(elem[i]);};
 }
 
 // create an "subtract1" function
