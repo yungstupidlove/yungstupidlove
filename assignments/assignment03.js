@@ -26,4 +26,3 @@ function add1 (elem) {
     elem.children[2].innerHTML = currentScore + 1;
   }
 }
-
