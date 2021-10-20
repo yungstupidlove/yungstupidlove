@@ -10,9 +10,9 @@ elem[1] = document.getElementById("1");
 // assign a function to the + button
 elem[1].children[4].children[0].onclick = function(){add1(elem[1]);};
 
+// assign a function to the - button
 elem[1].children[4].children[1].onclick = function(){subtract1(elem[1]);};
 
-// assign a function to the - button
 for(let i=1; i<=18; i++) {
   // console.log(i);
   elem[i] = document.getElementById(i.toString());
