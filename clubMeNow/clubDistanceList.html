@@ -52,6 +52,11 @@
 <script src='clubMeNow.js'></script>
 <script>let clubs = loadClubDistances(); // called first
 function displayAbout() {location.href = 'clubAbout.html';}
+function undoLastShow() {
+    if (undoStack.length>1) {
+        undoRedo(redoStack, undoStack);
+    }
+}
 </script>
 
 </body>
