@@ -45,9 +45,11 @@ var chartData = {
           callback: function(label, index, labels) {
             return (   label/1000 > 9 
                     || label/1000 == 1 
-                    || label/1000 == 0.1 
-                    || label/1000 == 0.01) 
-              ? label/1000+'k' :  "";
+                    || label/1000 == .1
+                    || label/1000 == .01
+                    || label/1000 == .001
+                    ) 
+              ? label/100 + 'k' :  "";
           }
         },
         scaleLabel: {
