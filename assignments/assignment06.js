@@ -1,3 +1,4 @@
+<!-- Code borrowed from https://codepen.io/gpcorser/pen/VwwBYem and https://regie09.github.io/regie092/assignment06.html -->
 <script>
 // some code below derived from Quinn Friebe's work at 
 // http://webp.svsu.edu/~qefriebe/cis255/as06/as06.html
